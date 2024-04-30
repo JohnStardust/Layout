@@ -1,0 +1,44 @@
+body {
+    background-color: rgba(0, 0, 0, 0.863);
+}
+
+
+* {
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    border: 1px solid white;
+    max-width: 1200px;
+    margin: auto;
+    height: 100%;
+}
+
+header, footer, section {
+    border: 1px solid white;
+    margin: 1rem;
+    text-align: center;
+    background-color: rgb(90, 0, 173);
+}
+
+header {
+    min-height: 100px
+}
+
+article {
+    display: flex;    
+}
+
+section{
+    min-height: 300px;
+}
+.texto1, .texto2 {
+    width: 100%;
+}
+
+footer {
+    min-height: 200px;
+}
